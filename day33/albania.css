@@ -1,0 +1,12 @@
+#name-error {
+    color: red;
+    visibility: none;
+}
+#age-error {
+    color: red;
+    visibility: none;
+}
+#city-error {
+    color: red;
+    visibility: none;
+}
