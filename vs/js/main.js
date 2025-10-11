@@ -14,7 +14,7 @@
 // })
 
 
-// $('ol li').mouseout(function(){
+// $('ul li').mouseout(function(){
 //     alert('Mouse out')
 // })
 
@@ -26,35 +26,69 @@ $('#btn').click(function(){
 
 
 $('#btn2').click(function(){
-    console.log('clicked')
+     console.log('clicked')
 })
 
 
 $('#myDiv').click(function(){
-  $(this).addClass('clicked');
+    $(this).addClass('clicked');
 })
 .find('span')
-.attr('title', 'Hover over me')
+.attr('title','Hover over mne')
+
+
 $('#btn4').click(function(){
-  $('hidden').hide();
+    $('.hidden').hide();
 })
+
 
 $('#btn3').click(function(){
-  $('.hidden').show('slow')
+    // $('.hidden').show();
+    // $('.hidden').show(300);
+    $('.hidden').show('slow');
 })
 
+
+
 /*
+
  click
+
  keydown
+
  keyup
+
  mouseover
+
  mouseout
+
  focus
+
  resize
+
 */
 
 
 
+$( "#square" ).click(function() {
 
+  $( "#square" ).animate({
 
+    left: "+=50px",
 
+    opacity: 0.25,
+
+    fontSize: "50px"
+
+  });
+
+});
+
+$('sortable').sortable();
+
+$(function(){
+    $('#accordion').accordion();
+    
+})
+
+$('tabs').tabs();
