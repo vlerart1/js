@@ -1,0 +1,28 @@
+/* Custom styles for the Bootstrap page */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.carousel {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
